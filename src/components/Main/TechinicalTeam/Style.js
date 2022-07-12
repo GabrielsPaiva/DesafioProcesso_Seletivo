@@ -6,7 +6,11 @@ flex-direction: column;
 align-items: center;
 margin-top: 10%;
 width: 100%;
-height: 1687px;
+height: 160vh;
+
+@media(max-width: 1024px){
+   height: 150vh;
+}
 `
 export const TitleAndSearch = styled.div`
 width: 80%;
@@ -18,6 +22,10 @@ display: flex;
 align-items: center;
 width: 98%;
 height: 10.1vh;
+
+@media(max-width: 1024px){
+   height: 9vh;
+}
 `
 export const Form = styled.form`
 display: flex;
@@ -43,7 +51,11 @@ outline: none;
     text-indent: 5%;
 }
 `
-export const MagnifierButton = styled.img``
+export const MagnifierButton = styled.img`
+@media(max-width: 1024px){
+   width: 15%;
+}
+`
 
 export const TeamDiv = styled.div`
 display: flex;
@@ -62,11 +74,16 @@ align-items: center;
 margin: 1% 0 0 1.2%;
 width: 23%;
 height: 34vh;
+
+@media(max-width: 1024px){
+   height: 26vh;
+}
 `
 export const TeamMemberName = styled.p`
 font-size: 1.3vw;
 font-weight: 700;
 `
 export const TeamMemberCargo = styled.p`
+font-size: 0.9vw;
 margin: 3% 0 2.5% 0;
 `

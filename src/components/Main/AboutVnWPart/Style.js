@@ -27,6 +27,10 @@ flex-direction: column;
 align-items: center;
 width: 90%;
 height: 80%;
+
+@media(max-width: 1024px){
+    margin-top: 14vh;
+}
 `
 export const AboutTextsBox = styled.div`
 width: 100%;

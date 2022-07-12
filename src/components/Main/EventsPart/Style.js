@@ -7,6 +7,11 @@ align-items: flex-end;
 margin-top: 20vh;
 width: 100%;
 height: 109vh;
+
+@media(max-width: 1024px){
+   margin-top: 0;
+   height: 109vh;
+}
 `
 export const TitleDiv = styled.div`
 width: 89%;

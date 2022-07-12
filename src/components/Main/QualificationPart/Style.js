@@ -2,9 +2,13 @@ import styled from "styled-components";
 
 export const Div = styled.div`
 display: flex;
-margin-top: 8%;
+margin: 8% 0 15% 0;
 width: 100%;
 height: 61vh;
+
+@media(max-width: 1024px){
+   height: 52vh;
+}
 `
 export const QualificationSection = styled.section`
 color: rgba(15, 34, 96, 1);
@@ -27,6 +31,10 @@ justify-content: space-between;
 margin: 3.5% 0 0 4%;
 width: 96%;
 height: 35%;
+
+@media(max-width: 1024px){
+   height: 30%;
+}
 `
 export const TopicImage = styled.img`
 width: 25%;

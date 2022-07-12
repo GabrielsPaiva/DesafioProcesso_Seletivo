@@ -22,7 +22,7 @@ export default class App extends React.Component {
       <>
         <GlobalStyle />
         <Header/>
-        <Main />
+        <Main/>
         <Footer/>
       </>
     )

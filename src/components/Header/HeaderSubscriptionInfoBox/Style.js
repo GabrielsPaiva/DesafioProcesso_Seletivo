@@ -10,6 +10,10 @@ border-radius: 20px;
 margin-top: 4.6%;
 width: 57%;
 height: 24vh;
+
+@media(max-width: 1024px){
+    height: 21vh;
+}
 `
 export const DotsAndLine = styled.div`
 display: flex;
@@ -25,6 +29,10 @@ justify-content: space-around;
 align-items: center;
 width: 6%;
 height: 70%;
+
+@media(max-width: 1024px){
+    height: 60%;
+}
 `
 export const Dot = styled.div`
 background-color: rgba(0, 20, 93, 1);

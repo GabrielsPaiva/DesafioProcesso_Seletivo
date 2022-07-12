@@ -17,6 +17,10 @@ justify-content: flex-end;
 align-items: center;
 width: 68%;
 height: 100%;
+
+@media(max-width: 1024px){
+    margin-left: 7%;
+}
 `
 export const NavUL = styled.ul`
 display: flex;
